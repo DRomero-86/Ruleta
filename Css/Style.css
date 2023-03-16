@@ -1,27 +1,60 @@
 .ruletaTabla{
-    width: 800px;
+    width: 730px;
     height: 100%;
     text-align: center;
     color: white;
     background: #1d6c38;
     display: grid;
-    /* grid-template-rows: ; */
+    
+}
+.numero0{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
+.numerosTodos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.numerosTodos div{
+     width: 100%;
+     height: 100%;
+     align-items: center;
+     
+}
 .filas{
     display: grid;
 }
 .botonesSuperiores{
     display: grid;
-    grid-template-columns: 25px 1fr 80px;    
+    grid-template-columns: 25px 1fr 80px;
+    grid-template-rows: 150px;   
 }
+/* .botonesInferiores{
+    height: 100%;
+} */
 
 .docenas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .ultimaFila{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.primer18Impar, .color, .segundo18Par{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
