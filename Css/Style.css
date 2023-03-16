@@ -1,0 +1,27 @@
+.ruletaTabla{
+    width: 800px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background: #1d6c38;
+    display: grid;
+    /* grid-template-rows: ; */
+}
+
+.filas{
+    display: grid;
+}
+.botonesSuperiores{
+    display: grid;
+    grid-template-columns: 25px 1fr 80px;    
+}
+
+.docenas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ultimaFila{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

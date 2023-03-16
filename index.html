@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+     <!-- Css -->
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Ruleta</title>
+</head>
+<body>
+    <h1 id="title" class="border text-center">Ruleta</h1>
+    <hr>
+
+    <div class="ruletaTabla border border-5 m-auto">
+        
+            <div class="botonesSuperiores">
+                <div class=""  role="button"; style="width:25px;">
+                    <div class="">0</div>
+                </div>
+                <div class="" id="numeros36">
+                    <div class="border d-flex" id="losNumerosPrimera12"></div>
+                    <div class="border d-flex" id="losNumerosSegunda12"></div>
+                    <div class="border d-flex" id="losNumerosTercera12"></div>
+                </div>
+
+                <div class="filas border">
+                    <div class="border">1er</div>
+                    <div class="border">2da</div>
+                    <div class="border">3ra</div>
+                </div>
+            </div>
+
+            <div class="border">
+                    <div class="docenas border">
+                        <div class="border">1era docena</div>
+                        <div class="border">2da docena</div>
+                        <div class="border">3era docena</div>
+                        
+                        
+                    </div>
+               
+                    <div class="docenas border">
+                        
+                        <div class="ultimaFila">
+                            <div class="border">1 a 18</div>
+                            <div class="border">impar</div>                            
+                        </div>
+
+                        <div class="ultimaFila">
+                            <div class="border">Rojo</div>
+                            <div class="border">Negro</div>
+                        </div>                                       
+                        
+                        <div class="ultimaFila">
+                            <div class="border">par</div>
+                            <div class="border">19 a 36</div>
+                        </div>
+                    </div>
+            </div> 
+    </div>
+
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
+crossorigin="anonymous"></script>
+    
+</body>
+</html>
