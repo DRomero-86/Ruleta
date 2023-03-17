@@ -7,12 +7,23 @@
     display: grid;
     
 }
+.botonesSuperiores{
+    display: grid;
+    grid-template-columns: 54px 1fr 80px;
+    grid-template-rows: 150px;   
+}
 .numero0{
-    width: 25px;
-    display: flex;
+    display: grid;
+    height: 100%;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
+}
+
+.numero0 div{
+    width: 50px;
+    height: 50px;
 }
 
 .numerosTodos{
@@ -22,39 +33,29 @@
 }
 .numerosTodos div{
      width: 100%;
-     height: 100%;
-     align-items: center;
-     
+     cursor: pointer;
 }
 .filas{
     display: grid;
+    cursor: pointer;
 }
-.botonesSuperiores{
-    display: grid;
-    grid-template-columns: 25px 1fr 80px;
-    grid-template-rows: 150px;   
-}
-/* .botonesInferiores{
-    height: 100%;
-} */
+
 
 .docenas{
     display: grid;
+    cursor: pointer;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 .ultimaFila{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 .primer18Impar, .color, .segundo18Par{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    cursor: pointer;
 }
